@@ -1,0 +1,66 @@
+*{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;}
+body{height:100%;font-size:1.6rem;background:#f7f7f7;font-family:微软雅黑;}
+div#wrap>div.row{padding:0;margin:0;}
+div#nav{padding:0;margin:0;}
+div#nav>.navbar{height:100%;overflow-y:auto;overflow-x:hidden;padding:0;margin:0;background:white;}
+.tactive{position:fixed;top:0;left:0;}
+div#nav>.navbar>div.container{width:100%;overflow-y:hidden;height:100%;padding:0;margin:0;}
+div#nav>.navbar>div.container>div.top{width:100%;padding:24px 0px;padding-bottom:250px;}
+div#nav>.navbar>div.container>div.top>ul.row{margin:0;}
+div#nav>.navbar>div.container>div.top>ul.row a.logo>img{width: 36px;}
+div#nav>.navbar>div.container>div.top>ul.row>li.col-lg-8>div.center>ul>li{float:left;letter-spacing: 1px;padding: 5px 10px 5px;font-size: 1.6rem;font-weight: 700;}
+div#nav>.navbar>div.container>div.top>ul.row>li.col-lg-8>div.center>ul>li>a{color:black;text-decoration:none}
+div#nav>.navbar>div.container>div.top>ul.row a.icon>img{width: 24px;}
+div#nav>.navbar>div.container>div.mid{text-align:center;}
+div#nav>.navbar>div.container>div.mid>h3{font-size: 2.6rem;font-weight: 700;}
+div#nav>.navbar>div.container>div.mid>div{padding-top:24px;padding-right:24px;}
+div#nav>.navbar>div.container>div.mid>div>a{text-decoration:none;color: #00A862;}
+div#nav>.navbar>div.container>div.mid>div>a.reg{display:inline-block;margin-left:25px;border: 1px solid #00A862;padding: 3px 12px;border-radius: 48px;}
+div#nav>.navbar>div.menu{padding:0;margin:0;width:100%;}
+div#nav>.navbar>div.menu>div.top{width:100%;padding:24px 0px;}
+div#nav>.navbar>div.menu>div.top>ul.row{margin:0;}
+div#nav>.navbar>div.menu>div.top>ul.row a.logo>img{width: 36px;}
+div#nav>.navbar>div.menu>div.mid>ul{padding:0px 24px 0px 84px}
+div#nav>.navbar>div.menu>div.mid>ul>li{font-size: 1.8rem;font-weight:700;}
+div#nav>.navbar>div.menu>div.mid>ul>li>a{text-decoration:none;color:#000;display:block;padding:8px 0px;}
+div#nav>.navbar>div.menu>div.footer>div{padding-left:84px;}
+div#nav>.navbar>div.menu>div.footer>div>a{text-decoration:none;color: #00A862;}
+div#nav>.navbar>div.menu>div.footer>div>a.reg{display:inline-block;margin-left:25px;border: 1px solid #00A862;padding: 3px 12px;border-radius: 48px;}
+div#nav>.navbar>div.menu>div.footer>div.container a{color: rgba(0, 0, 0, 0.38);font-size:1.4rem;}    
+/*1*/
+div#main{padding:0;margin:0px;}
+/*2*/
+div#main>div.list{margin:30px 0px;}
+div#main>div.list>div.col-lg-4>a{width:100%;margin:0px;padding:0px;}
+div#main>div.list>div.col-lg-4>a:hover{transform:translateY(-3px)}
+
+/*3*/
+div#main>div.wrapper{width:100%;height:270px;background:white;}
+div#main>div.wrapper div.col-lg-6{padding:36px 0px 36px 70px;}
+div#main>div.wrapper>div.left>h2{line-height:140%;font-size:2.2rem;}
+div#main>div.wrapper>div.left>p{margin:20px 0px;font-size:1.6rem;line-height:200%;font-weight:400;color:rgba(0, 0, 0, 0.56);}
+div#main>div.wrapper>div.left>p>a{text-decoration:none;display:inline-block;color: #C2A661;}
+div#main>div.wrapper>div.left>span{display:block;margin-top:25px;}
+div#main>div.wrapper>div.left>span>a{text-decoration:none;margin-right:10px;display:inline-block;font-weight:500;width:71px;height:39px;line-height:39px;border: 1px solid #00A862;border-radius: 48px;color:#00A862;text-align: center;}
+div#main>div.wrapper>div.right{height:250px;}
+div#main>div.wrapper>div.right>img{display:block;width:100%;height:72px;position:absolute;top:50%;right: 0px;margin-top: -36px; }
+/*4*/
+div#main>div.introduce{text-align:center;}
+div#main>div.introduce>h2{line-height:140%;padding-top:36px;font-size:2.2rem;color: #000;}
+div#main>div.introduce>p{font-size:1.6rem;line-height:200%;font-weight:400;color:rgba(0, 0, 0, 0.56);}
+div#main>div.introduce>ul.row{width:80%;padding-top:60px;margin:0 auto;}
+div#main>div.introduce>ul.row>li>a{padding-top:100px;text-decoration:none;height:195px;box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12)}
+div#main>div.introduce>ul.row>li>a:hover{transform:translateY(-3px)}
+div#main>div.introduce>ul.row>li>a>img{height:72px;margin-top:-130px;}
+div#main>div.introduce>ul.row>li>a>p.margin2{font-size: 1.4rem;color:rgba(0, 0, 0, 0.56) !important;}
+div#main>div.introduce>ul.row>li>a>p.caption{font-size: 1.2rem;color: #C2A661;font-weight: 400; opacity: 0.7;}
+/*5*/
+div#main>div.bottom{text-align:center;background:white;}
+div#main>div.bottom>h2{padding-top:36px;font-size:2.2rem;color: #000;}
+div#main>div.bottom>p{font-size:1.6rem;line-height:200%;font-weight:400;color:rgba(0, 0, 0, 0.56);}
+div#main>div.bottom>div.banner>.carousel>.carousel-inner>.item img{height:168px;width:100%;}
+div#main>div.bottom>div.banner>.carousel>.carousel-inner>.item span{border-radius:2px;box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);display:block;text-align: left;padding:18px}
+div#main>div.bottom>div.banner>.carousel>.carousel-inner>.item p{font-weight:400;color: #FFF;position:absolute;left:15px;z-index:3;padding: 8px 12px;font-size: 1.4rem; background: #C2A661;}
+
